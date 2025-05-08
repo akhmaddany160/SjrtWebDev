@@ -130,11 +130,46 @@ html, body {
     justify-content: center;
     text-align: center;
 }
+.profile_title {
+    color: whitesmoke;
+    text-shadow: 0 0 25px #ff005d, 0 0 10px rgb(255, 61, 61), 0 0 15px #0ff;
+}
+.profile_subtitle{
+    color: whitesmoke;
+}
 .footer_container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
     width: 100%;
     margin: 0;
     padding: 20px;
     background-color: black;
     color: whitesmoke;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer_container .social-icons {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.footer_container .contact-info {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: flex-end; 
+}
+
+.footer_container .contact-info a {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    color: whitesmoke; 
+    text-decoration: none; 
+}
+
+.footer_container .contact-info img {
+    width: 20px;
+    height: 20px;
 }
