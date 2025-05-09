@@ -173,3 +173,12 @@ html, body {
     width: 20px;
     height: 20px;
 }
+.whatsapp-contact {
+    display: inline-flex; 
+    align-items: center; 
+}
+
+.whatsapp-contact img {
+    margin-right: 9px; 
+    vertical-align: middle; 
+}
